@@ -1,0 +1,10 @@
+.wrapper {
+  border: 2px solid #ffffff33;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+/* body{
+    background : url('/Images/login_bg_2.png') no-repeat;
+    background-size: cover;
+
+} */

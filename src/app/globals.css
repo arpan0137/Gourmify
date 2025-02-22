@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200;
+}
+
+section.hero {
+  border: 2px solid #ffffff33;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+}
+
+.inputFieldRegister,
+.inputFieldLogin {
+  @apply border-2 border-gray-400 rounded-full;
+  @apply outline-none bg-transparent placeholder-gray-500;
+  @apply py-[20px] pl-[20px] pr-[45px] w-full h-full;
+}
+
+nav.tabs > * {
+  @apply hover:text-black hover:bg-white;
+  @apply px-[9px] py-1 text-[12.99px] transition-all;
+  @apply text-white md:px-4 md:py-1 lg:py-2 md:text-base rounded-full;
+}
+
+nav.tabs > .active {
+  @apply bg-gray-100 text-black drop-shadow-lg;
+}
+
+input {
+  @apply w-full h-8 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-gray-50 focus:border-gray-400 focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out;
+}
